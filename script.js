@@ -118,15 +118,15 @@ const temperature = [3, -2, -6, -1, "error", 9, 13, 17, 15, 14, 9, 5];
 //string needs to contain day (index+1)
 //add ... btn elements amd start and end of string
 
-const data1 = [17, 21, 23];
-const data2 = [12, 5, -5, 0, 4];
+// const data1 = [17, 21, 23];
+// const data2 = [12, 5, -5, 0, 4];
 
-const printForecast = function (arr) {
-  let striing = "";
-  for (let i = 0; i < arr.length; i++) {
-    striing = striing + `${arr[i]}ºC in ${i + 1} days ... `;
-  }
-  console.log("..." + striing);
-};
+// const printForecast = function (arr) {
+//   let striing = "";
+//   for (let i = 0; i < arr.length; i++) {
+//     striing = striing + `${arr[i]}ºC in ${i + 1} days ... `;
+//   }
+//   console.log("..." + striing);
+// };
 
-printForecast(data1);
+// printForecast(data1);
